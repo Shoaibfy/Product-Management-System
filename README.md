@@ -7,17 +7,15 @@ Application for managing the product with their brands.
 
 You need to install the following packages for backend:
 
-``
+```
 Django==3.0.1
 django-cors-headers==3.2.0
 djangorestframework==3.11.0
 
-
-
 ```
 ### Installation
 
-Clone the repository
+Clone the git  repository
 
 ```
 git clone https://github.com/Shoaibfy/Product-Management-System/.git
