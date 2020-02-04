@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'productmanagementsystem',
     'rest_framework',
     'corsheaders',
+    'json_field',
+    
 ]
 
 MIDDLEWARE = [
@@ -55,6 +57,8 @@ MIDDLEWARE = [
    'django.middleware.common.CommonMiddleware',
  
 ]
+
+
 
 ROOT_URLCONF = 'product.urls'
 

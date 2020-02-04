@@ -1,6 +1,6 @@
 from rest_framework import serializers
 from .models import Categories,Brand,Product
-import jsonfield
+from .models import jsonfield
 
 
 class ParentCategoriesSerializer(serializers.ModelSerializer):

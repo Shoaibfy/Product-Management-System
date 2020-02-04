@@ -1,5 +1,7 @@
 from django.db import models
-import jsonfield
+from django.forms.utils 
+from json_field import JSONField
+# import jsonfield
 # Create your models here.
 class Categories(models.Model):
     name=models.CharField(max_length=100,unique=True)
